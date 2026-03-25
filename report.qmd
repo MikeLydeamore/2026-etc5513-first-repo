@@ -3,6 +3,10 @@ title: "My First Reproducible Report"
 format:
     html:
         number-sections: true
+execute:
+  echo: false
+  warning: true
+  message: true
 ---
 
 ```{r}
@@ -13,17 +17,22 @@ format:
 
 library(ggplot2)
 library(knitr)
+library(tidyverse)
+
+flu_data <- read_csv("avian_influenza_numbers.csv")
+
 ```
 
-# First quarto doc on git
+# First quarto doc on git {#sec-first}
 
-I'm learning how to use Github
+I'm learning how to use Github. This is in @sec-first. Next is @sec-subheading1.
 
-## Now it has a subheading
+## Now it has a subheading {#sec-subheading1}
 
 ```{r}
 #| label: fig-scatterplot
 #| fig-cap: "Normalised mileage of cars. Positive values represent above average mileage, negative values indicate negative mileage"
+
 
 library(ggplot2)
 library(knitr)
@@ -46,9 +55,17 @@ ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) +
   coord_flip()
 ```
 
+In @fig-scatterplot we can see some green and salmon bars.
+
+But in @tbl-summarytable you can see a data summary.
+
 ```{r}
 #| label: tbl-summarytable
 #| tbl-cap: Summary of the dataset
 
-kable(head(mtcars))
+minimal_data <- flu_data |>
+  select(Range, Vietnam, Turkey, Egypt) |>
+  dplyr::filter(Range == "1997-1999")
+kable(minimal_data)
 ```
+
