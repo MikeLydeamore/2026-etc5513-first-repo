@@ -32,8 +32,11 @@ I'm learning how to use Github. This is in @sec-first. Next is @sec-subheading1.
 Wow I'm a subsection
 
 Other changes on main
+Changes to cause a conflict.
 
 This one is on my second branch
+
+
 
 ## Now it has a subheading {#sec-subheading1}
 
