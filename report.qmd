@@ -29,6 +29,8 @@ I'm learning how to use Github. This is in @sec-first. Next is @sec-subheading1.
 
 New changes in the first section wow look more changes
 
+Other changes to continue
+
 ## Yeah we're on a branch now!!
 
 
