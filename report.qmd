@@ -31,6 +31,7 @@ New changes in the first section wow look more changes
 
 ## Yeah we're on a branch now!!
 
+Re-adding the stash list
 
 Wow I'm a subsection
 
