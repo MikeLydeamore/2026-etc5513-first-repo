@@ -27,7 +27,10 @@ flu_data <- read_csv("avian_influenza_numbers.csv")
 
 I'm learning how to use Github. This is in @sec-first. Next is @sec-subheading1.
 
+New changes in the first section wow look more changes
+
 ## Yeah we're on a branch now!!
+
 
 Wow I'm a subsection
 
