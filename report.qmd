@@ -33,6 +33,7 @@ Other changes to continue
 
 ## Yeah we're on a branch now!!
 
+Re-adding the stash list
 
 Wow I'm a subsection
 
