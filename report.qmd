@@ -33,6 +33,17 @@ Other changes to continue
 
 Wow more changes
 
+Even more changes
+
+```{r}
+#| results: 'asis'
+
+cat(paste0("* Hello", 1+1))
+
+```
+
+
+
 ## Yeah we're on a branch now!!
 
 Re-adding the stash list
