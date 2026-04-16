@@ -25,7 +25,7 @@ flu_data <- read_csv("avian_influenza_numbers.csv")
 
 # First quarto doc on git {#sec-first}
 
-I'm learning how to use Github. This is in @sec-first. Next is @sec-subheading1.
+I'm learning how to use Github as part of some reproducible practices. This is in @sec-first. Next is @sec-subheading1.
 
 ## This subsection I'm making on a branch
 
