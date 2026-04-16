@@ -31,6 +31,8 @@ Second sentence about how great quarto is
 
 And a third sentence because I really love Quarto
 
+Wow did you know you can make changes on Github Web!?
+
 ## This subsection I'm making on a branch
 
 Wow I'm a subsection. Two hashes makes a subsection.
