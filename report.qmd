@@ -29,7 +29,7 @@ I'm learning how to use Github as part of some reproducible practices. This is i
 
 ## This subsection I'm making on a branch
 
-Wow I'm a subsection. Two hashes makes a subsection.
+Wow I'm a subsection
 
 Other changes on main
 Changes to cause a conflict.
