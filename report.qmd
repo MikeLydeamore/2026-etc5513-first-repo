@@ -23,6 +23,10 @@ flu_data <- read_csv("avian_influenza_numbers.csv")
 
 ```
 
+Commit #1
+
+Commit #2.1
+
 # First quarto doc on git {#sec-first}
 
 I'm learning how to use Github as part of some reproducible practices. This is in @sec-first. Next is @sec-subheading1.
