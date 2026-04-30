@@ -28,6 +28,8 @@ Commit #2.1
 
 Data from @penguins is the best!
 
+Another commit to demo
+
 # First quarto doc[@dillon1968] on git {#sec-first}
 
 I'm learning how to use Github as part of some reproducible practices. This is in @sec-first. Next is @sec-subheading1.
