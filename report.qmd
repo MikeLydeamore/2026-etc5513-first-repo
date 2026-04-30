@@ -22,15 +22,7 @@ flu_data <- read_csv("avian_influenza_numbers.csv")
 
 ```
 
-Commit #1 from @lydeamore2026border @Citations
-
-Commit #2.1
-
 Data from @penguins is the best!
-
-Another commit to demo
-
-This is a detailed commit
 
 # First quarto doc[@dillon1968] on git {#sec-first}
 
