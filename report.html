@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>My First Reproducible Report</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -20,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="report_files/libs/clipboard/clipboard.min.js"></script>
@@ -30,10 +52,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="report_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="report_files/libs/quarto-html/anchor.min.js"></script>
 <link href="report_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="report_files/libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="report_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="report_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="report_files/libs/bootstrap/bootstrap-81267100e462c21b3d6c0d5bf76a3417.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="report_files/libs/bootstrap/bootstrap-138a6193a3bd40baf1e627da441a4734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -63,16 +85,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sec-first" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> First quarto doc on git</h1>
-<p>I’m learning how to use Github. This is in <a href="#sec-first" class="quarto-xref">Section&nbsp;1</a>. Next is <a href="#sec-subheading1" class="quarto-xref">Section&nbsp;1.2</a>.</p>
-<section id="this-subsection-im-making-on-a-branch" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="this-subsection-im-making-on-a-branch"><span class="header-section-number">1.1</span> This subsection I’m making on a branch</h2>
+<p>Commit #1 from <span class="citation" data-cites="lydeamore2026border"><span class="nocase">Lydeamore et al.</span> (<a href="#ref-lydeamore2026border" role="doc-biblioref">2026</a>)</span> <span class="citation" data-cites="Citations">Quarto Development (<a href="#ref-Citations" role="doc-biblioref">2026</a>)</span></p>
+<p>Commit #2.1</p>
+<p>Data from <span class="citation" data-cites="penguins">Horst et al. (<a href="#ref-penguins" role="doc-biblioref">2020</a>)</span> is the best!</p>
+<section id="sec-first" class="level1">
+<h1>First quarto doc on git</h1>
+<p>I’m learning how to use Github as part of some reproducible practices. This is in <a href="#sec-first" class="quarto-xref">Section&nbsp;1</a>. Next is <a href="#sec-subheading1" class="quarto-xref">Section&nbsp;1.2</a>.</p>
+<p>Changes to show editors instead of VI</p>
+<section id="this-subsection-im-making-on-a-branch" class="level2">
+<h2 class="anchored" data-anchor-id="this-subsection-im-making-on-a-branch">This subsection I’m making on a branch</h2>
 <p>Wow I’m a subsection</p>
+<p>Other changes on main Changes to cause a conflict.</p>
 <p>This one is on my second branch</p>
 </section>
-<section id="sec-subheading1" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="sec-subheading1"><span class="header-section-number">1.2</span> Now it has a subheading</h2>
+<section id="sec-subheading1" class="level2">
+<h2 class="anchored" data-anchor-id="sec-subheading1">Now it has a subheading</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-scatterplot" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -87,6 +114,23 @@ Figure&nbsp;1: Normalised mileage of cars. Positive values represent above avera
 </div>
 </div>
 </div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-penguins" class="csl-entry" role="listitem">
+Horst, Allison Marie, Alison Presmanes Hill, and Kristen B Gorman. 2020. <em>Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data</em>. <a href="https://doi.org/10.5281/zenodo.3960218">https://doi.org/10.5281/zenodo.3960218</a>.
+</div>
+<div id="ref-lydeamore2026border" class="csl-entry" role="listitem">
+<span class="nocase">Lydeamore, Michael, Cameron Zachreson, Eamon Conway, et al.</span> 2026. <span>“Border Quarantine, Vaccination and Public Health Measures to Mitigate the Impact of COVID-19 Importations in Australia: A Modelling Study.”</span> <em>Journal of the Royal Society Interface</em> 23 (235).
+</div>
+<div id="ref-Citations" class="csl-entry" role="listitem">
+Quarto Development. 2026. In <em>Quarto</em>. <a href="https://quarto.org/docs/authoring/citations.html">https://quarto.org/docs/authoring/citations.html</a>.
+</div>
+</div>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
 <p>In <a href="#fig-scatterplot" class="quarto-xref">Figure&nbsp;1</a> we can see some green and salmon bars.</p>
 <p>But in <a href="#tbl-summarytable" class="quarto-xref">Table&nbsp;1</a> you can see a data summary.</p>
 <div class="cell">
@@ -97,7 +141,7 @@ Table&nbsp;1: Summary of the dataset
 </figcaption>
 <div aria-describedby="tbl-summarytable-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<table class="cell caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Range</th>
@@ -386,13 +430,14 @@ Table&nbsp;1: Summary of the dataset
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

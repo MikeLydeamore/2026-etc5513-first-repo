@@ -1,11 +1,11 @@
 ---
 title: "My First Reproducible Report"
-format: letter-typst
+format: html
 execute:
   echo: false
   warning: true
   message: true
-
+bibliography: references.bib
 ---
 
 ```{r}
@@ -22,11 +22,13 @@ flu_data <- read_csv("avian_influenza_numbers.csv")
 
 ```
 
-Commit #1
+Commit #1 from @lydeamore2026border @Citations
 
 Commit #2.1
 
-# First quarto doc on git {#sec-first}
+Data from @penguins is the best!
+
+# First quarto doc[@dillon1968] on git {#sec-first}
 
 I'm learning how to use Github as part of some reproducible practices. This is in @sec-first. Next is @sec-subheading1.
 
@@ -36,12 +38,9 @@ Changes to show editors instead of VI
 
 Wow I'm a subsection
 
-Other changes on main
-Changes to cause a conflict.
+Other changes on main Changes to cause a conflict.
 
 This one is on my second branch
-
-
 
 ## Now it has a subheading {#sec-subheading1}
 
@@ -71,6 +70,13 @@ ggplot(mtcars, aes(x=`car name`, y=mpg_z, label=mpg_z)) +
   coord_flip()
 ```
 
+## References
+
+::: {#refs}
+:::
+
+## Appendix
+
 In @fig-scatterplot we can see some green and salmon bars.
 
 But in @tbl-summarytable you can see a data summary.
@@ -84,4 +90,3 @@ minimal_data <- flu_data |>
   dplyr::filter(Range == "1997-1999")
 kable(minimal_data)
 ```
-
