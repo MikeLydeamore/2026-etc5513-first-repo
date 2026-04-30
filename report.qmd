@@ -1,12 +1,11 @@
 ---
 title: "My First Reproducible Report"
-format:
-    html:
-        number-sections: true
+format: letter-typst
 execute:
   echo: false
   warning: true
   message: true
+
 ---
 
 ```{r}

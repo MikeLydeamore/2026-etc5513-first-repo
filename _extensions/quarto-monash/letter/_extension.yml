@@ -1,0 +1,45 @@
+title: Monash Letter
+author: Rob J Hyndman
+version: 3.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf:
+      documentclass: letter
+      pdf-engine: pdflatex
+      date: today
+      date-format: "D MMMM YYYY"
+      papersize: a4
+      fontsize: 11pt
+      geometry:
+        - "top=2cm"
+        - "bottom=2cm"
+        - "left=2cm"
+        - "right=2cm"
+      colorlinks: true
+      template-partials:
+        - "before-body.tex"
+        - "after-body.tex"
+        - "before-title.tex"
+      format-resources:
+        - monash2.png
+        - MBSportrait.jpg
+        - EQUIS.png
+        - AMBA.png
+        - AACSB.png
+    typst:
+      date: today
+      date-format: "D MMMM YYYY"
+      fontsize: 11pt
+      papersize: a4
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
+      font-paths:
+        - fonts
+      format-resources:
+        - monash2.png
+        - MBSportrait.jpg
+        - EQUIS.png
+        - AMBA.png
+        - AACSB.png
